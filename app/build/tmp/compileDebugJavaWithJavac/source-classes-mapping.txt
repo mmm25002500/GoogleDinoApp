@@ -1,0 +1,4 @@
+com/tershi/dino/MainActivity.java
+ com.tershi.dino.MainActivity
+com/tershi/dino/BuildConfig.java
+ com.tershi.dino.BuildConfig
