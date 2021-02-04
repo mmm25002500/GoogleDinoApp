@@ -22,7 +22,8 @@ Step 4.Run
 ``adb install release.apk``
 
 ### 心得與建構思路:
-這是利用課餘時候，我突發奇想將Google離線版畫面給下載下來。使用 chrome://dino 可以進到小恐龍畫面內
+這是我利用課餘時間，突發奇想將Google離線版Google小恐龍源碼給下載下來，使用「chrome://dino」可以進到小恐龍畫面內。<br><br>
+我這次在遊戲根目錄內放置asset裡面就是遊戲的HTML、JavaScript、CSS源碼，然後在activity_main.xml中加入webview，由於這是HTML，所以使用Android內建的webView App框架就可以達成了，不需要自己另寫。在MainActivity.java中，我將URL網址設定成「file:///android_asset/index.html」，這麼一來，在打開APP時就會載入此HTML網頁。
 
 ## 關於我們 About Us
 
